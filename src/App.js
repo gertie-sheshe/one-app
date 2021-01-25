@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -6,7 +5,8 @@ function App() {
   return (
     <div className="App">
       <p>One Two Three</p>
-  <p>{process.env.REACT_APP_NAME}</p>
+      <p>{process.env.REACT_APP_NAME}</p>
+      <p>Try again</p>
     </div>
   );
 }
