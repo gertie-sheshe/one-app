@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <p>One Two Three</p>
       <p>{process.env.REACT_APP_NAME}</p>
-      <p>Try again</p>
+      <p>Try again and again</p>
     </div>
   );
 }
