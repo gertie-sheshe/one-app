@@ -7,6 +7,7 @@ function App() {
       <p>One Two Three</p>
       <p>{process.env.REACT_APP_NAME}</p>
       <p>Try again and again</p>
+  <p>Access Token {process.env.REACT_APP_ACCESS_TOKEN}</p>
     </div>
   );
 }
