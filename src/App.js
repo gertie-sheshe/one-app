@@ -2,7 +2,7 @@ import './App.css';
 
 function App() {
   console.log('TEST', process.env.REACT_APP_NAME)
-  console.log('TOKEN', process .env.REACT_APP_ACCESS_TOKEN)
+  console.log('TOKEN', process.env.REACT_APP_ACCESS_TOKEN)
   return (
     <div className="App">
       <p>One Two Three</p>
