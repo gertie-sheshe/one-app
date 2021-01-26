@@ -19,6 +19,8 @@ jobs:
           
         env:
           REACT_APP_NAME: ${{ secrets.REACT_APP_NAME }}
+          REACT_APP_ACCESS_TOKEN: ${{ secrets.REACT_APP_ACCESS_TOKEN }}
+          REACT_APP_API: ${{ secrets.REACT_APP_API }}
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.6.2
